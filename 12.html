@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图书馆之家</title>
+  <link rel="stylesheet" type="text/css" href="css/12.css">
+  <link rel="stylesheet" type="text/css" href="../1.js">
+  <script type="text/javascript"> 
+function displaySubMenu(li) { 
+var subMenu = li.getElementsByTagName("ul")[0]; 
+subMenu.style.display = "block"; 
+} 
+function hideSubMenu(li) { 
+var subMenu = li.getElementsByTagName("ul")[0]; 
+subMenu.style.display = "none"; 
+} 
+</script> 
+</head>
+<body>
+  <!-- TOP -->
+ <div class="top">
+		<div class="top_l fl">
+		<span>欢迎来到川电机图书馆之家</span>
+		</div>
+		<div class="top_r fr">
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">资料室</a></li>
+			<li><a href="#">个人中心</a></li>
+			<li><a href="#">关于我们</a></li>
+			<li><a href="zhaopianqiang.html">摄影室</a></li>
+		</ul>
+		</div>
+</div>
+<!-- end=top -->
+<!-- logo -->
+<div class="logo">
+<span>我心里一直都在暗暗设想<br>
+天堂应该是图书馆的模样</span>
+  <h1 class="logo_l fl"></h1>
+  <div class="logo_r fr">
+   <div class="logo_r_content">
+    <input type="text" class="logo_r_reache fl" value="请输入书籍名称">
+    <input type="button" class="logo_r_bt fr" name="searche" value="搜索">
+   </div>
+  </div>
+</div>
+<!-- END=LOGO -->
+<!-- nav -->
+<div class="navigation">
+ <ul id="navigation"> 
+ <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+  <a href="#">图书馆</a> 
+   <ul> 
+    <li><a href="#">一楼大厅</a></li> 
+    <li><a href="#">二楼自习室</a></li> 
+    <li><a href="#">三楼社会科学类</a></li> 
+    <li><a href="#">四楼社会科学类</a></li> 
+   </ul> 
+ </li> 
+ <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+  <a href="#">查阅系统</a> 
+   <ul> 
+    <li><a href="#">借阅信息查询</a></li> 
+    <li><a href="#">图书续借系统</a></li> 
+    <li><a href="#">图书超期查询</a></li> 
+    <li><a href="#">读者信息查询</a></li> 
+    <li><a href="#">书籍类目查询</a></li> 
+   </ul> 
+ </li> 
+ <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+   <a href="#">图书馆管理</a> 
+   <ul> 
+     <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+     <a href="#">部门分类>></a> 
+     <ul> 
+     <li><a href="#">图管会秘书处</a></li> 
+     <li><a href="#">图管会宣传部</a></li> 
+     <li><a href="#">图管会管理部</a></li> 
+     <li><a href="#">图管会技术咨询部</a></li> 
+     </ul> 
+     </li> 
+    <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+     <a href="#">意见提交>></a> 
+     <ul> 
+      <li><a href="#">图书错误信息提交</a></li> 
+      <li><a href="#">图书丢失损坏提交</a></li> 
+      <li><a href="#">图书馆损坏设备保修</a></li> 
+     </ul> 
+    </li> 
+    <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+     <a href="#">联系老师</a> 
+     <ul> 
+      <li><a href="#">补领图书刘老师</a></li> 
+      <li><a href="#">日常执勤雷老师</a></li> 
+      <li><a href="#">前台服务</a></li> 
+     </ul> 
+    </li> 
+    <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+     <a href="#">日常活动风采</a> 
+     <ul> 
+      <li><a href="#">读书系列活动</a></li> 
+      <li><a href="#">写给一年后的自己</a></li> 
+      <li><a href="#">图书馆摄影展示</a></li> 
+     </ul> 
+    </li> 
+   </ul> 
+ </li>
+ <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+  <a href="#">三味书屋</a> 
+   <ul> 
+    <li><a href="#">最新文学推荐</a></li> 
+    <li><a href="#">中国古文学习</a></li> 
+    <li><a href="#">经典诗词鉴赏</a></li> 
+    <li><a href="#">读书有感分享</a></li> 
+    <li><a href="#">文学经典短句</a></li> 
+   </ul> 
+ </li> <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+  <a href="#">志愿报名</a> 
+   <ul> 
+    <li><a href="#">图书馆执勤志愿者</a></li> 
+    <li><a href="#">图书馆图书管理志愿者</a></li> 
+    <li><a href="#">图书馆卫生志愿者</a></li> 
+    <li><a href="#">图书馆活动志愿者</a></li> 
+    <li><a href="#">图书馆志愿须知条款</a></li> 
+   </ul> 
+ </li>  
+</ul> 
+</div>
+<!-- end=nav -->
+
+<!-- banner -->
+<div class="banner">
+  <div class="banner_l fl">
+    <h2 class="banner_l_top ">首页导航</h2>
+    <div class="banner_l_bottom">
+     <ul>
+    <li><a href="#">服务内容</a></li>
+    <li><a href="#">办证须知</a></li>
+    <li><a href="#">开放时间</a></li>
+    <li><a href="#">读者须知</a></li>
+   </ul>
+   </div>
+  </div>
+  <div class="banner_r fl">此处至右侧可设置动态滚动图片</div>
+</div>
+<!-- end=banner -->
+<!-- content -->
+<div class="content">
+  <div class="content_l fl">
+    <div class="content_l_content fl">TOP1</div>
+    <div class="content_l_content fl">TOP2</div>
+
+    <div class="content_l_content fl">TOP3</div>
+    <div class="content_l_content fl">11111</div>
+
+    <div class="content_l_content fl">11111</div>
+    <div class="content_l_content fl">11111</div>
+  </div>
+  <div class="content_r fr">
+    <p>书籍推荐</p>
+    <ul>
+      <li><a href="#">1.《飘》</a></li>
+      <li><a href="#">2.《莎士比亚精选》</a></li>
+      <li><a href="#">3.《三个火枪手》</a></li>
+      <li><a href="#">4.《活着》</a></li>
+      <li><a href="#">5.《了不起的盖茨比》</a></li>
+      <li><a href="#">6.《彷徨》</a></li>
+      <li><a href="#">7.《围城》</a></li>
+      <li><a href="#">8.《四世同堂》</a></li>
+      <li><a href="#">9.《尘埃落定》</a></li>
+      <li><a href="#">10.《黄金时代》</a></li>
+      <li><a href="#">11.《异乡人》</a></li>
+      <li><a href="#">12.《城南旧事》</a></li>
+      <li><a href="#">13.《背影》</a></li>
+      <li><a href="#">14.《子夜》</a></li>
+      <li><a href="#">15.《沉沦》</a></li>
+      <li><a href="#">16.《呐喊》</a></li>
+      <li><a href="#">17.《唐吉坷德》</a></li>
+      <li><a href="#">18.《红与黑》</a></li>
+      <li><a href="#">19.《悲惨世界》</a></li>
+    </ul>
+  </div>
+</div>
+<!-- end=content -->
+<!-- footer -->
+<div class="footer">
+  <div class="footer_t">
+    <ul>
+      <li><a href="#top">返回顶部</a></li>
+      <li><a href="#">服务&案例</a></li>
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#">体验之美</a></li>
+      <li><a href="#">意见箱</a></li>
+    </ul>
+    <p>公众QQ：1360796720<br>
+    微信公众号:yishuweiyou8<br>
+    </p>
+  </div>
+  <div class="footer_b">
+     <h3>不忘初心</h3>
+     <p>四川电子机械职业技术学院图书馆官网</p>
+     <p>联系电话：15892668330/18583181740（郑先生）</p>
+     <p>爱心邮箱：1030990255@qq.com</p>
+  </div>
+
+</div>
+<li id="placeholder">
+<a href="img/1.jpg" tittle="杯具" onclick="showPic(this);return false;">杯中世界</a>
+</li>
+
+
+</body>
+</html>
